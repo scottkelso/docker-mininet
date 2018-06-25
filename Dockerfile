@@ -17,6 +17,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     xterm \
     wireshark \
     git \
+    openssh-client \
  && rm -rf /var/lib/apt/lists/* \
  && chmod +x /ENTRYPOINT.sh
 
