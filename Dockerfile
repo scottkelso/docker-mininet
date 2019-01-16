@@ -22,6 +22,7 @@ RUN apt-get install -y --no-install-recommends \
     openssh-client \
     wget \
     tshark \
+    argus-server \
  && rm -rf /var/lib/apt/lists/* \
  && chmod +x /ENTRYPOINT.sh
 
