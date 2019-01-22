@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM ubuntu:18.04
 
 USER root
 WORKDIR /root
@@ -13,6 +13,8 @@ RUN apt-get install -y --no-install-recommends \
     iputils-ping \
     mininet \
     net-tools \
+    openvswitch-switch \
+    openvswitch-testcontroller \
     tcpdump \
     tcpreplay \
     vim \
