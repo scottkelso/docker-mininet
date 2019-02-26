@@ -26,6 +26,7 @@ RUN apt-get install -y --no-install-recommends \
     tshark \
     argus-server \
     argus-client \
+    nmap \
  && rm -rf /var/lib/apt/lists/* \
  && chmod +x /ENTRYPOINT.sh
 
